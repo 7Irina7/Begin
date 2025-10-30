@@ -2,38 +2,63 @@
 <html lang="de">
 <head>
   <meta charset="utf-8" />
-  <title>Murki</title>
-  <meta name="description" content="Webseite meiner Katze" />
+  <title>Murki 🐾</title>
+  <meta name="description" content="Webseite meiner Katze Murki" />
   <meta name="author" content="Irina U" />
   <link rel="stylesheet" href="./css/style.css" />
-</head>
-<body>
-  <div>
-    <ul>
-      <li>Startseite</li>
-      <li>Info</li>
-      <li>Fotoalbum</li>
-      <li>Kontakt / Frage</li>
-    </ul>
-  </div>
-  <header>
-      <h1>Herzlich Willkommen</h1>
-  </header>
-  <section>
-    <h2>Murki´s Website</h2>
-    <p>Willkommen auf meiner kleinen Seite über meinen Kater Milo 🐾
-Er ist mein bester Freund, ein echter Abenteurer und ein bisschen faul – aber immer liebenswert.
-Hier findest du ein paar Infos über ihn, seine Lieblingsmomente und tolle Fotos aus seinem Katzenleben.</p>
-    <img src="./images/schlaf.jpg" alt="Mukri schäft auf dem Teppich"/>
-      <p>💤Hier schläft er nach einem anstrengenden Tag voller Abenteuer.</p>
-     <img src="./images/schlaf2.jpg" alt="Mukri schäft auf dem Tisch"/>
-     <p>Mukri schäft auf dem Tisch</p>
-     <img src="./images/Balkon1.jpeg" alt="Mukri auf dem Balkon"/>
-       <p>🪴 Zwischen den Blumentöpfen und Sonnenschatten – hier ist Milo in seinem Element.</p>
-  </section>
-  <script src="./js/main.js"></script>
 
-  <p>Danke, dass du Murki besucht hast 💛
-Er würde sich über einen Kommentar freuen – oder vielleicht über ein paar Leckerlis</p>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Info</a></li>
+      <li><a href="#">Fotos</a></li>
+      <li><a href="#">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>🐾 Herzlich Willkommen auf Murkis Seite</h1>
+
+  </header>
+
+  
+  <section class="info">
+    <p>🐱  Murki ist ein 8 Jahre alter Mischling aus Maine Coon und europäischem Kater. Er wiegt etwa 7 Kilogramm, hat ein dichtes, schwarz-weißes-beiges Fell und wunderschöne grüne Augen. Murki ist mein bester Freund – neugierig, verschmust und manchmal ein kleiner Faulpelz. Auf dieser Seite findest du seine Lieblingsmomente und schöne Fotos aus seinem Katzenleben. </p>
+  </section>
+
+  <section class="gallery">
+
+    <div class="photo">
+      <img class="bild" src="./images/balkon2.jpeg" alt="Murki auf dem Balkon"/>
+      <p>🪴 Zwischen den Blumentöpfen auf dem Balkon fühlt sich Murki am wohlsten.</p>
+      <textarea placeholder="Kommentar schreiben..."></textarea>
+    </div>
+
+    <div class="photo">
+      <img class="bild" src="./images/schlaf.jpeg" alt="Murki schläft auf dem Teppich"/>
+      <p>💤 Hier schläft Murki nach einem langen Tag voller Abenteuer.</p>
+      <textarea placeholder="Kommentar schreiben..."></textarea>
+    </div>
+
+    <div class="photo">
+      <img class="bild" src="./images/schlaf2.jpg" alt="Murki schläft auf dem Tisch"/>
+      <p>☀️ Murki liebt es, sich auf dem Tisch auszuruhen.</p>
+      <textarea placeholder="Kommentar schreiben..."></textarea>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>Danke, dass du Murki besucht hast 💛  
+    Er freut sich über jeden Kommentar – oder vielleicht ein paar Leckerlis 🐾</p>
+  </footer>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
